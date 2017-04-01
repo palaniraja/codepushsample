@@ -16,9 +16,10 @@ export default class codepushSample extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Initial Version (v1.0)
+          Initial Version (v2.0)
         </Text>
         <Image source={require('./images/g-staff.png')} style={{width: 100, height: 163}} />
+        <Image source={require('./images/f-staff.png')} style={{width: 100, height: 163}} />
         
       </View>
     );
